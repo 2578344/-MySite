@@ -4,6 +4,24 @@ html {
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
 
+.rainbow {
+    border-radius: 4px;  
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.rainbow:hover {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    animation:slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+
 #second {
     height: 100px;
     width: 100px;
@@ -46,20 +64,7 @@ html {
 }
 
 
-#test {
-    color: white;
-    font-size: 100px;
-    margin: auto;
-}
 
-#myForm {
-    display:block;
-    position: fixed;
-    bottom: 0;
-    right: 15px;
-    border: 3px solid #f1f1f1;
-    z-index: 9;
-}
 
 #title {
     position: absolute;
@@ -98,6 +103,7 @@ html {
     padding-left: 10px;
     overflow-anchor: none;
 }
+
 
 span a {
     text-decoration: none;

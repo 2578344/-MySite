@@ -15,4 +15,5 @@ function change(){
 function exit() {
     document.getElementById("first").classList.add('vanish');
     document.getElementById("second").innerHTML = "Contact Me";
+    pressed = 0;
 }
