@@ -23,9 +23,20 @@
             <br>
             <span><a href="https://github.com/2578344">Portfolio</a></span>
             <br>
-            <span>Contact Me</span>
+            <span id="first"><div  id="contact-form"><button onclick="exit()">X</button>
+                <form id="email-form" action="mailto:mgolabek9@gmail.com"
+                method="POST"
+                enctype="multipart/form-data"
+                name="EmailForm">
+                    <input type="text" size="10" name="Contact-Name" placeholder="Name">
+                    <input type="email" name="Contact-Email" placeholder="Email">
+                    <textarea name="Contact-Message" rows="6″ cols="20″ placeholder="Message"></textarea>
+                </form>  </div></span>
+            <span id="second" onclick="change()">Contact Me</span>
+            </div>
         </div> 
     </section>
-    
+
+    <script src="script.js"></script>
 </body>
 </html>
