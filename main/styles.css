@@ -4,6 +4,11 @@ html {
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
 
+hr {
+    margin: 7px;
+    visibility: hidden;
+}
+
 .rainbow {
     border-radius: 4px;  
     color: #fff;
@@ -29,7 +34,12 @@ html {
     cursor: pointer;
 }
 
-
+#second:hover {
+    background-color: rgb(231, 5, 5);
+    font-weight: 400;
+    border-radius: 5px;
+    color: black;
+}
 
 .vanish {
     display: none;
